@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barbearia.API", "Barbearia.API\Barbearia.API.csproj", "{5E19EC75-FE4E-431B-AAB6-06F7C51D0048}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barbearia.Application", "Barbearia.Application\Barbearia.Application.csproj", "{53FFBFC0-2F88-494E-83E8-5A025BBAE93D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barbearia.Domain", "Barbearia.Domain\Barbearia.Domain.csproj", "{32AAA80B-978F-49E1-AB9E-320B53E30C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barbearia.Infrastructure", "Barbearia.Infrastructure\Barbearia.Infrastructure.csproj", "{9075F4AE-E5D4-4057-8F6B-08819CB21924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barbearia.Tests", "Barbearia.Tests\Barbearia.Tests.csproj", "{8F597CBC-B3FA-4035-B61D-411D695B9C25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E19EC75-FE4E-431B-AAB6-06F7C51D0048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E19EC75-FE4E-431B-AAB6-06F7C51D0048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E19EC75-FE4E-431B-AAB6-06F7C51D0048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E19EC75-FE4E-431B-AAB6-06F7C51D0048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53FFBFC0-2F88-494E-83E8-5A025BBAE93D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53FFBFC0-2F88-494E-83E8-5A025BBAE93D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53FFBFC0-2F88-494E-83E8-5A025BBAE93D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53FFBFC0-2F88-494E-83E8-5A025BBAE93D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32AAA80B-978F-49E1-AB9E-320B53E30C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32AAA80B-978F-49E1-AB9E-320B53E30C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32AAA80B-978F-49E1-AB9E-320B53E30C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32AAA80B-978F-49E1-AB9E-320B53E30C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9075F4AE-E5D4-4057-8F6B-08819CB21924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9075F4AE-E5D4-4057-8F6B-08819CB21924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9075F4AE-E5D4-4057-8F6B-08819CB21924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9075F4AE-E5D4-4057-8F6B-08819CB21924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F597CBC-B3FA-4035-B61D-411D695B9C25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F597CBC-B3FA-4035-B61D-411D695B9C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F597CBC-B3FA-4035-B61D-411D695B9C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F597CBC-B3FA-4035-B61D-411D695B9C25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

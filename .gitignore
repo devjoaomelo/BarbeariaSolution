@@ -1,0 +1,58 @@
+## Build artifacts
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+## VS Code
+.vscode/
+
+## Rider
+.idea/
+
+## MacOS / Linux
+.DS_Store
+*.swp
+*.swo
+
+## Logs
+*.log
+
+## ASP.NET Runtime stuff
+*.db
+*.pidb
+*.mdb
+*.sdf
+
+## dotnet environment
+.env
+.env.*
+
+## EF Core
+Migrations/
+
+## User secrets
+**/secrets.json
+
+## Test results
+TestResults/
+*.coverage
+*.coveragexml
+
+## Visual Studio
+*.vs/
+*.psess
+*.vsp
+*.vspx
+
+## NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+## App settings - cuidado!
+**/appsettings.Development.json
