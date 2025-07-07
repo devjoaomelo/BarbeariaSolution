@@ -23,4 +23,19 @@ public class Cliente
         Email = email;
         Telefone = telefone;
     }
+
+    public void AtualizarTelefone(Telefone novoTelefone)
+    {
+        Telefone = novoTelefone;
+    }
+
+    public void AtualizarEmail(Email novoEmail)
+    {
+        Email = novoEmail;
+    }
+
+    public void AtualizarNome(string novoNome)
+    {
+        Nome = novoNome;
+    }
 }
