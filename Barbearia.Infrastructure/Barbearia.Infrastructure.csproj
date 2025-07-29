@@ -7,8 +7,6 @@
 
   <ItemGroup>
     <Folder Include="Configs\" />
-    <Folder Include="Persistence\" />
-    <Folder Include="Repositories\" />
   </ItemGroup>
 
   <PropertyGroup>
